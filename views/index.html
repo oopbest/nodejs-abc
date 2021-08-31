@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        body h3{
+            color: white;
+        }
+        .box_A{
+            position: relative;
+            min-height: 380px;
+        }
+        .box_B{
+            width: 300px;
+            height: 135px;
+            position: absolute;
+            right: 2.5em;
+            top: 2em;
+        }
+        .box_C{
+            position: absolute;
+            width: 250px;
+            height: 400px;
+            top: 32%;
+            left: 100px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="box_A p-5 bg-danger">
+            <h3 class="text-primary">A</h3>
+            <div class="box_B bg-info ps-5 pt-5">
+                <h3>B</h3>
+            </div>
+            <div class="box_C bg-primary d-flex justify-content-center">
+                <h3 class=" align-self-center">C</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
